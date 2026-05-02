@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  --background: 0 0% 100%;
+  --foreground: 206 92% 12%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 206 92% 12%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 206 92% 12%;
+  
+  --primary: 206 89% 17%;
+  --primary-foreground: 0 0% 98%;
+  
+  --secondary: 45 95% 55%;
+  --secondary-foreground: 206 92% 12%;
+  
+  --muted: 210 20% 96%;
+  --muted-foreground: 215 20% 35%;
+  
+  --accent: 45 95% 55%;
+  --accent-foreground: 206 92% 12%;
+  
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 215 20% 90%;
+  --input: 215 20% 90%;
+  --ring: 45 95% 55%;
+
+  --radius: 1rem;
+}
+
+.dark {
+  --background: 206 92% 12%;
+  --foreground: 0 0% 98%;
+  
+  --card: 206 70% 16%;
+  --card-foreground: 0 0% 98%;
+  
+  --popover: 206 70% 16%;
+  --popover-foreground: 0 0% 98%;
+  
+  --primary: 206 89% 17%;
+  --primary-foreground: 0 0% 98%;
+  
+  --secondary: 45 95% 55%;
+  --secondary-foreground: 206 92% 12%;
+  
+  --muted: 206 38% 20%;
+  --muted-foreground: 210 15% 75%;
+  
+  --accent: 45 95% 55%;
+  --accent-foreground: 206 92% 12%;
+  
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 206 28% 25%;
+  --input: 206 28% 25%;
+  --ring: 45 95% 55%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-background/70 backdrop-blur-lg border border-white/10 shadow-xl shadow-black/20;
+  }
+  
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}
+
+@layer components {
+  .select-field {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%236b7280'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.9rem center;
+    background-size: 1rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes spark {
+  0%, 100% { opacity: 1; transform: scale(1) rotate(0deg); }
+  50% { opacity: 0.7; transform: scale(1.1) rotate(10deg); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-spark {
+  animation: spark 1.5s ease-in-out infinite;
+}

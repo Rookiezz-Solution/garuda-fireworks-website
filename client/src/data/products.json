@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "2 3/4\" Bird Crackers",
+    "category": "Flash Light Crackers",
+    "price": 7,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "2 3/4\" Bird Crackers. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 2,
+    "name": "3 1/2\" Lakshmi Crackers",
+    "category": "Flash Light Crackers",
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "3 1/2\" Lakshmi Crackers. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 3,
+    "name": "4 Lakshmi Crackers",
+    "category": "Flash Light Crackers",
+    "price": 18,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "4 Lakshmi Crackers. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 4,
+    "name": "4\" Deluxe Gold Lakshmi",
+    "category": "Flash Light Crackers",
+    "price": 30,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "4\" Deluxe Gold Lakshmi. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 5,
+    "name": "5\" Deluxe Lion",
+    "category": "Flash Light Crackers",
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "5\" Deluxe Lion. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 6,
+    "name": "6\" Deluxe Jallikattu",
+    "category": "Flash Light Crackers",
+    "price": 55,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "6\" Deluxe Jallikattu. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 7,
+    "name": "2 Sound Crackers",
+    "category": "Flash Light Crackers",
+    "price": 35,
+    "image": "https://images.unsplash.com/photo-1541846445940-025a1b32ba3a?auto=format&fit=crop&q=80&w=800",
+    "description": "2 Sound Crackers. Flash Light Crackers.",
+    "safety": "Hold at arm's length. Keep away from face and clothing. Do not touch the hot wire after use."
+  },
+  {
+    "id": 8,
+    "name": "Ground Chakkar Big (10 Pcs)",
+    "category": "Ground Chakkar",
+    "price": 34,
+    "image": "https://images.unsplash.com/photo-1543660506-69ee62bb5dbb?auto=format&fit=crop&q=80&w=800",
+    "description": "Ground Chakkar Big (10 Pcs). Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 9,
+    "name": "Ground Chakkar Asoka",
+    "category": "Ground Chakkar",
+    "price": 50,
+    "image": "https://images.unsplash.com/photo-1543660506-69ee62bb5dbb?auto=format&fit=crop&q=80&w=800",
+    "description": "Ground Chakkar Asoka. Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 10,
+    "name": "Ground Chakkar Special",
+    "category": "Ground Chakkar",
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1543660506-69ee62bb5dbb?auto=format&fit=crop&q=80&w=800",
+    "description": "Ground Chakkar Special. Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 11,
+    "name": "Ground Chakkar Deluxe",
+    "category": "Ground Chakkar",
+    "price": 110,
+    "image": "https://images.unsplash.com/photo-1543660506-69ee62bb5dbb?auto=format&fit=crop&q=80&w=800",
+    "description": "Ground Chakkar Deluxe. Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 12,
+    "name": "Disco Wheel",
+    "category": "Ground Chakkar",
+    "price": 70,
+    "image": "https://images.unsplash.com/photo-1605335198463-dbb49767851d?auto=format&fit=crop&q=80&w=800",
+    "description": "Disco Wheel. Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 13,
+    "name": "Wire Chakkar",
+    "category": "Ground Chakkar",
+    "price": 170,
+    "image": "https://images.unsplash.com/photo-1543660506-69ee62bb5dbb?auto=format&fit=crop&q=80&w=800",
+    "description": "Wire Chakkar. Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 14,
+    "name": "Kuppi Special",
+    "category": "Ground Chakkar",
+    "price": 91,
+    "image": "https://images.unsplash.com/photo-1543660506-69ee62bb5dbb?auto=format&fit=crop&q=80&w=800",
+    "description": "Kuppi Special. Ground Chakkar.",
+    "safety": "Use only on flat, hard surfaces. Stand at least 2 meters away once lit."
+  },
+  {
+    "id": 15,
+    "name": "Flower Pots Small",
+    "category": "Flower Pots",
+    "price": 47,
+    "image": "https://images.unsplash.com/photo-1513997782163-95669b7bbdf0?auto=format&fit=crop&q=80&w=800",
+    "description": "Flower Pots Small. Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 16,
+    "name": "Flower Pots Big",
+    "category": "Flower Pots",
+    "price": 68,
+    "image": "https://images.unsplash.com/photo-1513997782163-95669b7bbdf0?auto=format&fit=crop&q=80&w=800",
+    "description": "Flower Pots Big. Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 17,
+    "name": "Flower Pots Special",
+    "category": "Flower Pots",
+    "price": 82,
+    "image": "https://images.unsplash.com/photo-1513997782163-95669b7bbdf0?auto=format&fit=crop&q=80&w=800",
+    "description": "Flower Pots Special. Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 18,
+    "name": "Flower Pots Asoka",
+    "category": "Flower Pots",
+    "price": 110,
+    "image": "https://images.unsplash.com/photo-1513997782163-95669b7bbdf0?auto=format&fit=crop&q=80&w=800",
+    "description": "Flower Pots Asoka. Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 19,
+    "name": "Flower Pots S.Deluxe (2 Pcs)",
+    "category": "Flower Pots",
+    "price": 100,
+    "image": "https://images.unsplash.com/photo-1513997782163-95669b7bbdf0?auto=format&fit=crop&q=80&w=800",
+    "description": "Flower Pots S.Deluxe (2 Pcs). Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 20,
+    "name": "Colour Koti",
+    "category": "Flower Pots",
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1535560668045-8c7694bf6e72?auto=format&fit=crop&q=80&w=800",
+    "description": "Colour Koti. Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 21,
+    "name": "Tri Colour",
+    "category": "Flower Pots",
+    "price": 230,
+    "image": "https://images.unsplash.com/photo-1535560668045-8c7694bf6e72?auto=format&fit=crop&q=80&w=800",
+    "description": "Tri Colour. Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 22,
+    "name": "Deluxe Colour Koti (5 Pcs)",
+    "category": "Flower Pots",
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1535560668045-8c7694bf6e72?auto=format&fit=crop&q=80&w=800",
+    "description": "Deluxe Colour Koti (5 Pcs). Flower Pots.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 23,
+    "name": "1 1/2\" Twinkling Star",
+    "category": "Twinkling Star",
+    "price": 20,
+    "image": "https://images.unsplash.com/photo-1498622205843-3b0ac17f8bba?auto=format&fit=crop&q=80&w=800",
+    "description": "1 1/2\" Twinkling Star. Twinkling Star.",
+    "safety": "Ensure clear overhead area before launch. Do not hold in hand to ignite."
+  },
+  {
+    "id": 24,
+    "name": "4\" Twinkling Star",
+    "category": "Twinkling Star",
+    "price": 50,
+    "image": "https://images.unsplash.com/photo-1498622205843-3b0ac17f8bba?auto=format&fit=crop&q=80&w=800",
+    "description": "4\" Twinkling Star. Twinkling Star.",
+    "safety": "Ensure clear overhead area before launch. Do not hold in hand to ignite."
+  },
+  {
+    "id": 25,
+    "name": "Jil Jil",
+    "category": "Twinkling Star",
+    "price": 25,
+    "image": "https://images.unsplash.com/photo-1498622205843-3b0ac17f8bba?auto=format&fit=crop&q=80&w=800",
+    "description": "Jil Jil. Twinkling Star.",
+    "safety": "Ensure clear overhead area before launch. Do not hold in hand to ignite."
+  },
+  {
+    "id": 26,
+    "name": "Ultra Pencil (3 Pcs)",
+    "category": "Pencil",
+    "price": 80,
+    "image": "https://images.unsplash.com/photo-1535560668045-8c7694bf6e72?auto=format&fit=crop&q=80&w=800",
+    "description": "Ultra Pencil (3 Pcs). Pencil.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 27,
+    "name": "Navarang Pencil (5 Pcs)",
+    "category": "Pencil",
+    "price": 125,
+    "image": "https://images.unsplash.com/photo-1535560668045-8c7694bf6e72?auto=format&fit=crop&q=80&w=800",
+    "description": "Navarang Pencil (5 Pcs). Pencil.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 28,
+    "name": "Pop Corn Pencil (3 Pcs)",
+    "category": "Pencil",
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1535560668045-8c7694bf6e72?auto=format&fit=crop&q=80&w=800",
+    "description": "Pop Corn Pencil (3 Pcs). Pencil.",
+    "safety": "Place on a flat, even surface. Light the tip and quickly move back 5 meters."
+  },
+  {
+    "id": 29,
+    "name": "Bijili Red Crackers",
+    "category": "Bijili Crackers",
+    "price": 33,
+    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800",
+    "description": "Bijili Red Crackers. Bijili Crackers.",
+    "safety": "Use under adult supervision. Dispose of safely in a bucket of water or sand."
+  },
+  {
+    "id": 30,
+    "name": "Bijili Stripped Crackers",
+    "category": "Bijili Crackers",
+    "price": 35,
+    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800",
+    "description": "Bijili Stripped Crackers. Bijili Crackers.",
+    "safety": "Use under adult supervision. Dispose of safely in a bucket of water or sand."
+  }
+]

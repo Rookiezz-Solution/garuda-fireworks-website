@@ -1,0 +1,261 @@
+Create a beautiful, modern MVP website for a fireworks company called **Garuda Fireworks**.
+
+The goal is to create a **customer-friendly fireworks catalogue website** where users can browse products and send inquiries via WhatsApp. This is NOT an ecommerce checkout system.
+
+Use the following technologies:
+
+* React (Vite)
+* Tailwind CSS
+* React Router
+* Local JSON data for products
+
+The website must look **modern, festive, and visually impressive** with smooth animations and mobile responsiveness.
+
+---
+
+WHATSAPP CONTACT
+
+Use this WhatsApp number everywhere for inquiries:
+
+8838497929
+
+WhatsApp link format:
+
+https://wa.me/918838497929
+
+For product inquiries automatically include product name.
+
+Example message:
+
+"Hi Garuda Fireworks, I'm interested in this product."
+
+---
+
+WEBSITE PAGES
+
+1. HOME PAGE
+
+Sections:
+
+Hero section
+
+* Background fireworks image
+* Title: "Garuda Fireworks"
+* Subtitle: "Premium Crackers from Sivakasi"
+* Button: "Browse Products"
+
+Featured Products section
+
+About section
+Short description about Garuda Fireworks.
+
+CTA section
+Button: "Order via WhatsApp"
+
+Footer
+Phone number
+WhatsApp link
+Sivakasi location
+
+---
+
+2. PRODUCTS PAGE
+
+Display fireworks in a responsive grid.
+
+Each product card should show:
+
+Product image
+Product name
+Category
+Price label
+View details button
+
+Add hover animation.
+
+---
+
+3. PRODUCT DETAILS PAGE
+
+Show:
+
+Large product image
+Product name
+Description
+Category
+Safety instructions
+
+Add a large green button:
+
+"Inquire on WhatsApp"
+
+This should open WhatsApp with the product name included.
+
+---
+
+PRODUCT CATEGORIES
+
+Include category filtering:
+
+Sparklers
+Rockets
+Flower Pots
+Ground Chakkars
+Gift Boxes
+
+Users should be able to filter products easily.
+
+---
+
+SEARCH FEATURE
+
+Add a search bar allowing users to search products by name.
+
+---
+
+PRODUCT DATA
+
+Use a local JSON file:
+
+src/data/products.json
+
+Include at least 12 demo fireworks products.
+
+Product structure:
+
+id
+name
+category
+price
+image
+description
+safety
+
+Use placeholder images from Unsplash.
+
+---
+
+UI / UX REQUIREMENTS
+
+Design must feel modern and festive.
+
+Use:
+
+rounded cards
+soft shadows
+hover animations
+clean spacing
+mobile-first layout
+
+Use fireworks-inspired colors:
+
+Primary: #E11D48
+Secondary: #F59E0B
+
+---
+
+LOADER
+
+Create a beautiful animated loader when the website loads.
+
+Loader idea:
+
+Spark animation or fireworks burst animation in the center.
+
+Display text:
+
+"Loading Garuda Fireworks..."
+
+---
+
+FLOATING BUTTON
+
+Add a floating WhatsApp button in bottom-right corner on all pages.
+
+---
+
+NAVBAR
+
+Sticky navigation bar with:
+
+Logo
+Home
+Products
+Contact
+
+On mobile it should collapse into a hamburger menu.
+
+---
+
+COMPONENT STRUCTURE
+
+src/components
+
+Navbar
+HeroSection
+ProductCard
+ProductGrid
+CategoryFilter
+SearchBar
+Footer
+Loader
+WhatsAppFloatingButton
+
+---
+
+ROUTING
+
+Use react-router-dom for navigation.
+
+Routes:
+
+/
+/products
+/product/:id
+
+---
+
+PROJECT STRUCTURE
+
+src/
+
+components
+pages
+data
+App.jsx
+main.jsx
+
+pages:
+
+Home.jsx
+Products.jsx
+ProductDetails.jsx
+
+---
+
+RESPONSIVE DESIGN
+
+Mobile friendly.
+
+Breakpoints:
+
+mobile
+tablet
+desktop
+
+Grid should adapt smoothly.
+
+---
+
+EXTRA TOUCHES
+
+Add smooth scrolling.
+Add subtle animations using CSS or Framer Motion if needed.
+Ensure the UI looks clean and professional.
+
+---
+
+The project must run immediately using:
+
+npm install
+npm run dev

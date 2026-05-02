@@ -1,0 +1,231 @@
+Extend the existing React MVP website for **Garuda Fireworks** by adding a simple e-commerce style cart and checkout system. This is NOT a real payment gateway. Instead, the order will be sent as a formatted WhatsApp message to the admin.
+
+Admin WhatsApp number:
+8838497929
+
+The goal is to allow users to add fireworks to a cart, review their order, enter their details, and send the order request to WhatsApp.
+
+Do NOT rebuild the project. Extend the current structure.
+
+---
+
+FEATURES TO ADD
+
+1. CART SYSTEM
+
+Create a cart system using React Context API.
+
+Users must be able to:
+
+* Add product to cart
+* Increase quantity
+* Decrease quantity
+* Remove product
+* View cart items
+* See total price
+
+Store cart items in localStorage so cart persists after refresh.
+
+---
+
+2. ADD TO CART BUTTON
+
+In ProductCard component add:
+
+Button:
+"Add to Cart"
+
+When clicked:
+
+* Product is added to cart
+* Show small toast notification:
+  "Product added to cart"
+
+---
+
+3. CART PAGE
+
+Create a new page:
+
+/cart
+
+Cart page must display:
+
+Product image
+Product name
+Price
+Quantity controls (+ -)
+Remove button
+Item total
+
+At bottom show:
+
+Subtotal
+Grand Total
+
+Buttons:
+
+"Continue Shopping"
+
+"Proceed to Checkout"
+
+---
+
+4. CHECKOUT PAGE
+
+Create new route:
+
+/checkout
+
+Checkout page must include a clean form asking for:
+
+Customer Name
+Phone Number
+Address
+City
+Pincode
+Order Notes (optional)
+
+Add validation:
+All fields required except notes.
+
+---
+
+5. ORDER SUMMARY
+
+Show order summary on checkout page:
+
+List of cart products
+Quantity
+Item totals
+Grand Total
+
+---
+
+6. WHATSAPP ORDER MESSAGE
+
+When user clicks "Place Order":
+
+Generate a formatted WhatsApp message containing:
+
+🔥 New Order – Garuda Fireworks
+
+Customer Name: [name]
+Phone: [phone]
+
+Delivery Address:
+[address]
+[city] - [pincode]
+
+## Order Details:
+
+Product Name x Quantity – Price
+Product Name x Quantity – Price
+-------------------------------
+
+Total: ₹[total]
+
+Please confirm availability and payment details.
+
+Open WhatsApp link:
+
+https://wa.me/918838497929?text=[encoded message]
+
+---
+
+7. ORDER SUCCESS POPUP
+
+After redirecting to WhatsApp show modal popup:
+
+Title:
+"Order Request Sent"
+
+Message:
+"Your order request has been sent to Garuda Fireworks. Our team will contact you to confirm payment and delivery."
+
+Buttons:
+Continue Shopping
+
+---
+
+8. CART ICON IN NAVBAR
+
+Add a cart icon in navbar.
+
+Display item count badge.
+
+Clicking icon opens cart page.
+
+---
+
+9. COMPONENTS TO CREATE
+
+src/components/
+
+CartContext.jsx
+CartItem.jsx
+CartIcon.jsx
+OrderSummary.jsx
+CheckoutForm.jsx
+ToastNotification.jsx
+
+---
+
+10. NEW PAGES
+
+src/pages/
+
+Cart.jsx
+Checkout.jsx
+
+---
+
+11. ROUTES
+
+Add routes:
+
+/cart
+/checkout
+
+---
+
+12. UI DESIGN
+
+Cart and checkout must match the existing Tailwind design.
+
+Use:
+
+rounded cards
+clean spacing
+mobile responsive layout
+
+Buttons must use the same color theme as the rest of the site.
+
+---
+
+13. RESPONSIVENESS
+
+Cart and checkout must work perfectly on:
+
+Mobile
+Tablet
+Desktop
+
+---
+
+14. ANIMATIONS
+
+Add small animations:
+
+Add to cart → toast notification
+
+Cart quantity change → smooth update
+
+Modal popup animation
+
+---
+
+Ensure the entire app still runs with:
+
+npm install
+npm run dev
